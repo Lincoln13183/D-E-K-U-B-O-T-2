@@ -104,10 +104,10 @@ module.exports.handleEvent = async function({
 		var m = global.logMessage.get(g);
 		if (!m) return;
 		let e = await s.getNameUser(l);
-		if (null == m.attachment[0]) return a.sendMessage(`${e} removed 1 message\ncontent: ${m.msgBody}`, u); {
+		if (null == m.attachment[0]) return a.sendMessage(`✿︎━━━━━━━━━━━━━━━━━✿︎\n👾 | 𝖬𝖺𝗌𝗍𝖾𝗋 ${e} 𝖽𝖾𝗍𝖾𝖼𝗍𝖾𝖽 𝖺𝗇 𝗎𝗇𝗌𝖾𝗇𝖽 𝗆𝖾𝗌𝗌𝖺𝗀𝖾\n✿︎━━━━━━━━━━━━━━━━━✿︎\n𝗖𝗼𝗻𝘁𝗲𝗻𝘁: ${m.msgBody}\n✿︎━━━━━━━━━━━━━━━━━✿︎`, u); {
 			let t = 0,
 				s = {
-					body: `${e} just removed ${m.attachment.length} attachment.${""!=m.msgBody?`\n\nContent: ${m.msgBody}`:""}`,
+					body: `✿︎━━━━━━━━━━━━━━━━━✿︎\n𝖬𝖺𝗌𝗍𝖾𝗋 ${e} 𝗃𝗎𝗌𝗍 𝗋𝖾𝖼𝖾𝗇𝗍𝗅𝗒 𝗎𝗇𝗌𝖾𝗇𝖽 𝖺𝗇 ${m.attachment.length} 𝖺𝗍𝗍𝖺𝖼𝗆𝖾𝗇𝗍.${""!=m.msgBody?`\n✿︎━━━━━━━━━━━━━━━━━✿︎\n𝗖𝗼𝗻𝘁𝗲𝗻𝘁: ${m.msgBody}`:""}\n✿︎━━━━━━━━━━━━━━━━━✿︎`,
 					attachment: [],
 					mentions: {
 						tag: e,

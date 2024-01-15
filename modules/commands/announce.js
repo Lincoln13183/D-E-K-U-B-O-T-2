@@ -17,8 +17,8 @@ module.exports.config = {
 
 module.exports.languages = {
   en: {
-    sendSuccess: 'Sent message to %1 thread!',
-    sendFail: '[!] Can\'t send message to %1 thread',
+    sendSuccess: '✅ | 𝖬𝖺𝗌𝗍𝖾𝗋, 𝗍𝗁𝖾 %1 𝗀𝗋𝗈𝗎𝗉 𝗍𝗁𝗋𝖾𝖺𝖽 𝗐𝖺𝗌 𝗌𝗎𝖼𝖼𝖾𝗌𝗌𝖿𝗎𝗅𝗅𝗒 𝗌𝖾𝗇𝗍 𝗍𝗁𝖾 𝖺𝗇𝗇𝗈𝗎𝗇𝖼𝖾𝗆𝖾𝗇𝗍!',
+    sendFail: 'ℹ️ | 𝖬𝖺𝗌𝗍𝖾𝗋, 𝗍𝗁𝖾 %1 𝗀𝗋𝗈𝗎𝗉 𝗍𝗁𝗋𝖾𝖺𝖽 𝗐𝖺𝗌 𝗎𝗇𝖺𝖻𝗅𝖾 𝗌𝖾𝗇𝗍 𝗍𝗁𝖾 𝖺𝗇𝗇𝗈𝗎𝗇𝖼𝖾𝗆𝖾𝗇𝗍',
   },
 };
 
@@ -34,7 +34,7 @@ module.exports.run = async ({ api, event, args, getText, Users }) => {
     content = content.substring('[en] '.length);
   }
 
-  const header = '❰❰ 𝗔𝗡𝗡𝗢𝗨𝗡𝗖𝗘𝗠𝗘𝗡𝗧 ❱❱\n\n'; // Bold header text
+  const header = '╭┉┉┅┉┅┄┄•◦ೋ•◦❥•◦ೋ\n𝗔𝗡𝗡𝗢𝗨𝗡𝗖𝗘𝗠𝗘𝗡𝗧\n\n'; // Bold header text
 
   try {
     const allThread = global.data.allThreadID || [];
@@ -46,7 +46,7 @@ module.exports.run = async ({ api, event, args, getText, Users }) => {
       const audioPath = await generateAudio(content, languageToSay, idThread, event.senderID);
 
       const messageOptions = {
-        body: `${header}${content}\n\n❰❰ 𝐅𝐑𝐎𝐌 𝐀𝐃𝐌𝐈𝐍 ❱❱: ${name.toUpperCase()}`, // Uppercase name
+        body: `${header}\n《 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 》${content}\n\n《 𝗙𝗥𝗢𝗠 𝗔𝗗𝗠𝗜𝗡 》 ${name.toUpperCase()}\n•◦ೋ•◦❥•◦ೋ•┈┄┄┅┉┅┉╯`, // Uppercase name
         attachment: createReadStream(audioPath),
       };
 

@@ -63,9 +63,9 @@ handleCommand.threadBanned=🚫 | 𝖬𝖺𝗌𝗍𝖾𝗋, 𝗒𝗈𝗎𝗋 �
 handleCommand.commandNotExist=🤷‍♂️ | 𝖬𝖺𝗌𝗍𝖾𝗋, 𝗍𝗁𝖾 𝖼𝗈𝗆𝗆𝖺𝗇𝖽 𝖽𝗈𝖾𝗌 𝗇𝗈𝗍 𝖾𝗑𝗂𝗌𝗍. 𝖨𝗌 𝗍𝗁𝖺𝗍 ☾︎%1☽︎ 𝗈𝗋 𝗇𝗈𝗍?
 handleCommand.commandThreadBanned=🚫 | 𝖬𝖺𝗌𝗍𝖾𝗋, 𝗒𝗈𝗎𝗋 𝗍𝗁𝗋𝖾𝖺𝖽 𝗂𝗌 𝗎𝗇𝖺𝖻𝗅𝖾 𝗍𝗈 𝗎𝗌𝖾 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝖺𝗇𝖽 ☾︎%1☽︎
 handleCommand.commandUserBanned=🚫 | 𝖬𝖺𝗌𝗍𝖾𝗋, 𝗒𝗈𝗎 𝖺𝗋𝖾 𝗎𝗇𝖺𝖻𝗅𝖾 𝗍𝗈 𝗎𝗌𝖾 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝖺𝗇𝖽 ☾︎%1☽︎
-handleCommand.threadNotAllowNSFW=Your thread is not allowed to use NSFW commands
+handleCommand.threadNotAllowNSFW=🚫 | 𝖬𝖺𝗌𝗍𝖾𝗋, 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉 𝗍𝗁𝗋𝖾𝖺𝖽 𝗂𝗌 𝗇𝗈𝗍 𝖺𝗅𝗅𝗈𝗐𝖾𝖽 𝗍𝗈 𝗎𝗌𝖾 𝖭𝖲𝖥𝖶 𝖼𝗈𝗆𝗆𝖺𝗇𝖽𝗌
 handleCommand.cantGetInfoThread=Can't get your thread's info, error: %1
-handleCommand.permssionNotEnough=You have no permission to use command "%1"
+handleCommand.permssionNotEnough=🙅‍♂️ | 𝖬𝖺𝗌𝗍𝖾𝗋, 𝗒𝗈𝗎 𝖽𝗈𝗇𝗍 𝗁𝖺𝗏𝖾 𝖺 𝗉𝖾𝗋𝗆𝗂𝗌𝗌𝗂𝗈𝗇 𝗍𝗈 𝗎𝗌𝖾 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝖺𝗇𝖽 ☾︎%1☽︎
 handleCommand.cantSetMessageReaction=Having some unexpected error at setMessageReaction, error: %1
 handleCommand.executeCommand=[ %1 ] Command used: %2 by user: %3 at thread: %4 | Args included: %5 | Processing time: %6ms
 handleCommand.commandError=Having some unexpected error when using command %1, error: %2
@@ -100,4 +100,4 @@ handleSchedule.exectuteError=Having some error when schedule at module %1, error
 
 # utils/index.js
 
-utils.throwError=[!] The command you are using is not syntax correct, please use %1help %2 for more usage details
+utils.throwError=ℹ️ | 𝖬𝖺𝗌𝗍𝖾𝗋, 𝗍𝗁𝖾 𝖼𝗈𝗆𝗆𝖺𝗇𝖽 𝗒𝗈𝗎 𝖺𝗋𝖾 𝗎𝗌𝗂𝗇𝗀 𝗂𝗌 𝗇𝗈𝗍 𝗈𝗇 𝗍𝗈 𝗍𝗁𝖾 𝖼𝗈𝗋𝗋𝖾𝖼𝗍 𝗌𝗒𝗇𝗍𝖺𝗑, 𝗒𝗈𝗎 𝗆𝖺𝗒 𝗎𝗌𝖾 %1help %2 𝖿𝗈𝗋 𝗆𝗈𝗋𝖾 𝖽𝖾𝗍𝖺𝗂𝗅𝗌.
